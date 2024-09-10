@@ -14,10 +14,8 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+      ## 안녕하세요, 저는 김효정입니다. UI/UX 기획자로 일을 하고 있으며 피그마, 구글 프레젠테이션, 노션, 지라 사용이 능숙합니다. 다양한 분야의 앱의 초기 기획 및 릴리즈를 진행하였고, PM으로써 프로젝트의 전반적인 기획 및 일정 관리를 주도한 경험이 있습니다. 평소에는 새로운 정보를 탐색하거나 다양한 상상을 하는 것을 좋아하며 생산적인 활동을 하지 않을 때는 누워있습니다.
+
     media:
       type: ImageBlock
       url: /images/about.jpg
@@ -46,6 +44,7 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+    
   - type: DividerSection
     styles:
       self:
@@ -58,9 +57,10 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
+    
   - type: MediaGallerySection
     colors: colors-f
-    subtitle: 'I worked with these folks:'
+    subtitle: '제가 일했던 회사에요!:'
     images:
       - type: ImageBlock
         url: /images/Frame 1.png
@@ -123,51 +123,11 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: GitHub
-            url: 'https://github.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
+            label: 이력서
+            url: https://drive.google.com/file/d/1gCgzHN7tK79PLGgvt-GmLdcVomEQzMax/view?usp=sharing
           - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: LinkedIn
-            url: 'https://www.linkedin.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Discord
-            url: 'https://discord.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
-        styles:
-          self:
-            textAlign: left
+            label: 포트폴리오
+            url: https://drive.google.com/file/d/1kPpXiFIo3NDJofdTCzbDjO7FZEtSfSC5/view?usp=sharing
     columns: 3
     spacingX: 120
     spacingY: 0
@@ -189,7 +149,7 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
-    subtitle: 'You can find me here:'
+    subtitle: '자세한 경력은 아래에서 확인하세요!:'
   - type: DividerSection
     styles:
       self:
@@ -204,24 +164,18 @@ sections:
         borderStyle: solid
   - type: LabelsSection
     colors: colors-f
-    subtitle: 'Skills:'
+    subtitle: '다음과 같은 작업들을 할 수 있습니다!'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: figma(Intermediate)
       - type: Label
-        label: React
+        label: google workspace(Expert)
       - type: Label
-        label: Microsoft Office
+        label: JIRA (Intermediate)
       - type: Label
-        label: Next.js
+        label: adobe photoshop(Intermediate)
       - type: Label
-        label: Netlify
-      - type: Label
-        label: Pancakes
-      - type: Label
-        label: C++
-      - type: Label
-        label: Swift
+        label: notion (Intermediate)
   - type: DividerSection
     styles:
       self:
@@ -234,12 +188,14 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
+    
   - type: TextSection
     variant: variant-a
-    subtitle: 'Contact:'
+    subtitle: '연락처는 다음과 같아요!'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      [workim7777@gmail.com](mailto:workim7777@gmail.com)
+    
   - type: DividerSection
     styles:
       self:

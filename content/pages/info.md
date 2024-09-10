@@ -46,6 +46,10 @@ sections:
 
   - type: MediaGallerySection
     colors: colors-f
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
     subtitle: '제가 일했던 회사에요:'
     images:
       - type: ImageBlock
@@ -162,7 +166,7 @@ sections:
       - type: Label
         label: adobe photoshop(Intermediate)
       - type: Label
-        label: 노션 (Intermediate)
+        label: notion.co (Intermediate)
 
   - type: DividerSection
     styles:

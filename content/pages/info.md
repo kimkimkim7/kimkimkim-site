@@ -120,7 +120,11 @@ sections:
         actions:
           - type: Link
             label: 이력서
-            url: https://drive.google.com/file/d/1_iUtaT1ZnZVBHcXPrtEhLRNQIXMwsYtU/view?usp=drive_link
+            url: https://drive.google.com/file/d/1gCgzHN7tK79PLGgvt-GmLdcVomEQzMax/view?usp=sharing
+          - type: Link
+            label: 포트폴리오
+            url: https://drive.google.com/file/d/1kPpXiFIo3NDJofdTCzbDjO7FZEtSfSC5/view?usp=sharing
+
 
     columns: 3
     spacingX: 120
@@ -158,24 +162,19 @@ sections:
         borderStyle: solid
   - type: LabelsSection
     colors: colors-f
-    subtitle: 'Skills:'
+    subtitle: '다음과 같은 작업들을 할 수 있습니다!:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: figma(Intermediate)
       - type: Label
-        label: React
+        label: google workspace(Expert)
       - type: Label
-        label: Microsoft Office
+        label: JIRA (Intermediate)
       - type: Label
-        label: Next.js
+        label: adobe photoshop(Intermediate)
       - type: Label
-        label: Netlify
-      - type: Label
-        label: Pancakes
-      - type: Label
-        label: C++
-      - type: Label
-        label: Swift
+        label: 노션 (Intermediate)
+
   - type: DividerSection
     styles:
       self:
@@ -188,12 +187,14 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
+ 
   - type: TextSection
     variant: variant-a
-    subtitle: 'Contact:'
+    subtitle: '연락처는 다음과 같아요!:'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      [workim7777@gmail.com](mailto:workim7777@gmail.com)
+ 
   - type: DividerSection
     styles:
       self:
@@ -210,11 +211,23 @@ sections:
     colors: colors-f
     items:
       - type: FeaturedItem
-        subtitle: 'Experience:'
+        subtitle: '자세한 경력은 다음과 같아요!:'
         text: |-
           **Current**
 
-          * freelance @freelance.me
+          **리스크제로, 성동구 | 대리**
+          * 2023년 5월 - 2024년 5월 
+          * 회사 소개 : 건설현장의 중대재해법에 필요한 문서를 PC나 APP으로 간편하게 작성할 수 있는 플랫폼
+          * figma, XD, Slack, notion.co, excel
+          * 업무 경험
+            1. 리스크제로 3.0 app 총괄 기획 (화면 ID 1000개 분량)
+            - PC버전만 있는 리스크제로 3.0 플랫폼의 app 버전 전체 기획
+            2. 리스크제로 3.0 app 버전을 기반으로 경기주택공사에 맞게 변형 (화면 ID 1000개 분량)
+            - 관리자,근로자APP menu struchture, IA, flowchart, policy, 설계서, Validation, Rule
+            3. 리스크제로 3.0 app 버전을 기반으로 서울시설공단에 맞게 변형 (화면 ID 200개 분량)
+            - 현장 및 기술단 APP menu struchture, IA, flowchart, policy, 설계서, Validation, Rule
+            4. 리스크제로 3.0 app 버전을 기반으로 울산항만공사에 맞게 변형 (화면 ID 200개 분량)
+            - 관리자 APP menu struchture, IA, flowchart, policy, 설계서, Validation, Rule
 
           **2018-2021**
 

@@ -51,8 +51,8 @@ sections:
         padding:
           - pt-8
           - pb-8
-          - pl-100
-          - pr-100
+          - pl-4
+          - pr-4
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
@@ -89,8 +89,8 @@ sections:
         padding:
           - pt-8
           - pb-8
-          - pl-8
-          - pr-8
+          - pl-100
+          - pr-100
         justifyContent: center
         borderRadius: none
         borderWidth: 0

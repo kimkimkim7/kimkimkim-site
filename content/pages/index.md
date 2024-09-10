@@ -128,7 +128,7 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: 제 작업들이 흥미롭나요? <br> 연락주세요!\U0001F4AC"
     form:
       type: FormBlock
       elementId: sign-up-form

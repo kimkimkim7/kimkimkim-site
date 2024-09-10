@@ -36,6 +36,7 @@ sections:
         justifyContent: center
       title:
         textAlign: left
+    
       subtitle:
         textAlign: left
       text:
@@ -43,56 +44,53 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-
+    
   - type: MediaGallerySection
-    colors: colors-f
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-    subtitle: '제가 일했던 회사에요:'
-    images:
-      - type: ImageBlock
-        url: /images/RISKZERO_CI.png
-        altText: Logo one
-        caption: Logo one
-      - type: ImageBlock
-        url: /images/softlunch.png
-        altText: Logo two
-        caption: Logo two
-      - type: ImageBlock
-        url: /images/platfarm.png
-        altText: Logo three
-        caption: Logo three
-      - type: ImageBlock
-        url: /images/daymedis.png
-        altText: Logo four
-        caption: Logo four
-      - type: ImageBlock
-        url: /images/kbrand.png
-        altText: Logo five
-        caption: Logo five
-    spacing: 3
-    columns: 5
-    aspectRatio: auto
-    showCaption: false
-    enableHover: false
-    styles:
-      self:
-        width: wide
-        height: auto
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: space-between
-        alignItems: center
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
+  colors: colors-f
+  subtitle: '제가 일했던 회사에요:'
+  images:
+    - type: riskzero
+      url: /images/RISKZERO_CI.png
+      altText: Logo one
+      caption: Logo one
+    - type: softlunch
+      url: /images/softlunch.png
+      altText: Logo two
+      caption: Logo two
+    - type: ImageBlock
+      url: /images/platfarm.png
+      altText: Logo three
+      caption: Logo three
+    - type: ImageBlock
+      url: /images/daymedis.png
+      altText: Logo four
+      caption: Logo four
+    - type: ImageBlock
+      url: /images/kbrand.png
+      altText: Logo five
+      caption: Logo five
+  spacing: 3
+  columns: 5
+  aspectRatio: auto
+  showCaption: false
+  enableHover: false
+  styles:
+    self:
+      width: wide
+      height: auto
+      padding:
+        - pt-8
+        - pb-8
+        - pl-4
+        - pr-4
+      justifyContent: space-between   # 좌우 정렬을 위해 space-between 사용
+      alignItems: center              # 수직 정렬을 위해 center 사용
+    title:
+      textAlign: center               # 제목을 중앙에 정렬
+    subtitle:
+      textAlign: center               # 서브타이틀을 중앙에 정렬
 
+    
   - type: DividerSection
     styles:
       self:
@@ -105,7 +103,6 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
-
   - type: FeaturedItemsSection
     colors: colors-f
     items:
@@ -117,6 +114,8 @@ sections:
           - type: Link
             label: 포트폴리오
             url: https://drive.google.com/file/d/1kPpXiFIo3NDJofdTCzbDjO7FZEtSfSC5/view?usp=sharing
+
+
     columns: 3
     spacingX: 120
     spacingY: 0
@@ -138,8 +137,7 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
-    subtitle: '자세한 경력은 아래에서 확인하세요!:'
-
+    subtitle: '자세한 경력은 아래에서 확안하세요!:'
   - type: DividerSection
     styles:
       self:
@@ -152,7 +150,6 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
-
   - type: LabelsSection
     colors: colors-f
     subtitle: '다음과 같은 작업들을 할 수 있습니다!:'
@@ -166,7 +163,7 @@ sections:
       - type: Label
         label: adobe photoshop(Intermediate)
       - type: Label
-        label: notion.co (Intermediate)
+        label: 노션 (Intermediate)
 
   - type: DividerSection
     styles:
@@ -180,14 +177,82 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
-
+ 
   - type: TextSection
     variant: variant-a
     subtitle: '연락처는 다음과 같아요!:'
     colors: colors-f
     text: |
       [workim7777@gmail.com](mailto:workim7777@gmail.com)
+ 
+- type: FeaturedItemsSection
+  colors: colors-f
+  items:
+    - type: FeaturedItem
+      subtitle: '자세한 경력은 다음과 같아요!:'
+      text: |-
+        **리스크제로, 성동구**
+        * 2023년 5월 - 2024년 5월 
+        * 회사 소개 : 건설현장의 중대재해법에 필요한 문서를 PC나 APP으로 간편하게 작성할 수 있는 플랫폼
+        * 업무 스킬 : figma, XD, Slack, notion.co, excel
+        * 업무 경험
+          1. 리스크제로 3.0 app 총괄 기획
+          - PC버전만 있는 리스크제로 3.0 플랫폼의 app 버전 전체 기획
+          2. 리스크제로 3.0 app 버전을 기반으로 경기주택공사에 맞게 변형
+          - 관리자, 근로자 APP menu structure, IA, flowchart, policy, 설계서, Validation, Rule
+          3. 리스크제로 3.0 app 버전을 기반으로 서울시설공단에 맞게 변형
+          - 현장 및 기술단 APP menu structure, IA, flowchart, policy, 설계서, Validation, Rule
+          4. 리스크제로 3.0 app 버전을 기반으로 울산항만공사에 맞게 변형
+          - 관리자 APP menu structure, IA, flowchart, policy, 설계서, Validation, Rule
+        ...  (생략)
 
+      styles:
+        self:
+          textAlign: left
+          width: 100%  # 전체 화면을 사용하도록 수정
+          padding:
+            - pt-0
+            - pl-0
+            - pb-0
+            - pr-0
+
+styles:
+  self:
+    height: auto
+    width: wide
+    margin:
+      - mt-0
+      - mb-0
+      - ml-0
+      - mr-0
+    padding:
+      - pt-8
+      - pb-8
+      - pl-4
+      - pr-4
+    justifyContent: center
+    borderRadius: none
+    borderWidth: 0
+    borderStyle: none
+    borderColor: border-dark
+  title:
+    textAlign: left
+  subtitle:
+    textAlign: left
+
+    
+  - type: DividerSection
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
   - type: ContactSection
     backgroundSize: full
     title: "제 작업들이 흥미롭나요? 연락주세요!"
@@ -225,11 +290,11 @@ sections:
           width: full
           type: TextareaFormControl
         - name: updatesConsent
-          label: Sign me up to receive my words
+          label: Sign me up to recieve my words
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit 🚀"
+      submitLabel: "Submit \U0001F680"
       styles:
         submitLabel:
           textAlign: center

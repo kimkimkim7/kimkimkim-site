@@ -35,7 +35,7 @@ sections:
         justifyContent: center
         flexDirection: row-reverse
     
-    cursor: public/images/free-icon-cursor-7155289.png(one.svg), progress
+    cursor: (public/images/free-icon-cursor-7155289.png), progress
     
       title:
         textAlign: left

@@ -96,7 +96,7 @@ sections:
           - pb-8
           - pl-80
           - pr-80
-        justifyContent: center
+        justifyContent: left
         borderRadius: none
         borderWidth: 0
         borderStyle: none
@@ -105,6 +105,7 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
+
   - type: DividerSection
     styles:
       self:

@@ -1,4 +1,4 @@
->---
+---
 type: PageLayout
 title: Home
 colors: colors-a
@@ -13,9 +13,9 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-title: |
-       안녕하세요!
-       저는 UI/UX 기획자 김효정입니다.
+    title: |
+      안녕하세요!
+      저는 UI/UX 기획자 김효정입니다.
     subtitle: >-
       지금까지의 경험과 성과는 저의 역량과 잠재력을 증명하는 중요한 이정표입니다. 이 과정에서 쌓은 능력으로 도전에 대한 두려움 없이, 새로운 기술과의 대담한 조우를 통해 스스로의 가능성을 확장하며 더 큰 도약을 준비해 왔습니다. 또한, 체계적이고 전략적인 기획 능력을 바탕으로 앞으로도 성장을 이어가고자 합니다.
     styles:
@@ -35,9 +35,7 @@ title: |
         alignItems: center
         justifyContent: center
         flexDirection: row-reverse
-    
-cursor: "url(/public/images/free-icon-cursor-7155289.png), progress"
-    
+      cursor: "url(/public/images/free-icon-cursor-7155289.png), progress"
       title:
         textAlign: left
       subtitle:
@@ -132,8 +130,8 @@ cursor: "url(/public/images/free-icon-cursor-7155289.png), progress"
     colors: colors-f
     backgroundSize: full
     title: |
-           제 작업들이 흥미롭나요?
-           연락주세요!
+      제 작업들이 흥미롭나요?
+      연락주세요!
     form:
       type: FormBlock
       elementId: sign-up-form
@@ -167,11 +165,11 @@ cursor: "url(/public/images/free-icon-cursor-7155289.png), progress"
           width: 1/2
           type: TextFormControl
         - name: updatesConsent
-          label: Sign me up to recieve updates
+          label: Sign me up to receive updates
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: "Submit 🚀"
       styles:
         submitLabel:
           textAlign: center

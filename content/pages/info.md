@@ -43,6 +43,7 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+    
   - type: DividerSection
     styles:
       self:
@@ -50,8 +51,8 @@ sections:
         padding:
           - pt-8
           - pb-8
-          - pl-16
-          - pr-16
+          - pl-100
+          - pr-100
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
@@ -99,6 +100,7 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
+    
   - type: DividerSection
     styles:
       self:

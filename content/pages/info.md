@@ -14,13 +14,10 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+      ## 안녕하세요, 저는 김효정입니다. UI/UX 기획자로 일을 하고 있으며, 다수 회사에서 일한 경험이 있습니다. 코딩이나 글쓰기, 창작 활동을 하지 않을 때는 누워있습니다.
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/IMG_1466.HEIC
       altText: Hero image
     styles:
       self:
@@ -347,7 +344,7 @@ sections:
         borderStyle: solid
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: "제 작업들이 흥미롭나요? 연락주세요!"
     colors: colors-f
     form:
       type: FormBlock

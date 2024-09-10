@@ -35,6 +35,9 @@ sections:
         alignItems: center
         justifyContent: center
         flexDirection: row-reverse
+    
+    cursor: url(one.svg), progress
+    
       title:
         textAlign: left
       subtitle:

@@ -50,8 +50,8 @@ sections:
         padding:
           - pt-8
           - pb-8
-          - pl-4
-          - pr-4
+          - pl-8
+          - pr-8
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
@@ -88,8 +88,8 @@ sections:
         padding:
           - pt-8
           - pb-8
-          - pl-4
-          - pr-4
+          - pl-8
+          - pr-8
         justifyContent: center
         borderRadius: none
         borderWidth: 0
@@ -118,7 +118,7 @@ sections:
         actions:
           - type: Link
             label: 이력서
-            url: '(https://drive.google.com/file/d/1_iUtaT1ZnZVBHcXPrtEhLRNQIXMwsYtU/view?usp=drive_link)'
+            url: https://drive.google.com/file/d/1_iUtaT1ZnZVBHcXPrtEhLRNQIXMwsYtU/view?usp=drive_link
 
     columns: 3
     spacingX: 120

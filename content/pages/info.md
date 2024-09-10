@@ -17,8 +17,8 @@ sections:
       ## 안녕하세요, 저는 김효정입니다. UI/UX 기획자로 일을 하고 있으며, 다수 회사에서 일한 경험이 있습니다. 코딩이나 글쓰기, 창작 활동을 하지 않을 때는 누워있습니다.
     media:
       type: ImageBlock
-      url: /images/IMG_1466.HEIC
-      altText: Hero image
+      url: /images/myface.png
+      altText: my face
     styles:
       self:
         height: auto
@@ -63,8 +63,8 @@ sections:
         url: /images/RISKZERO_CI.png
         altText: Logo one
         caption: Logo one
-      - type: ImageBlock
-        url: /images/logo2.svg
+      - type: softlunch
+        url: /images/softlunch_ci.png
         altText: Logo two
         caption: Logo two
       - type: ImageBlock

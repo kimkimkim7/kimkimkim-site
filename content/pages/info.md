@@ -64,7 +64,7 @@ sections:
         altText: Logo one
         caption: Logo one
       - type: softlunch
-        url: /images/softlunch_ci-removebg-preview.png
+        url: /images/softlunch.png
         altText: Logo two
         caption: Logo two
       - type: ImageBlock
@@ -72,13 +72,10 @@ sections:
         altText: Logo three
         caption: Logo three
       - type: ImageBlock
-        url: /images/logo4.svg
+        url: /images/kbrand.png
         altText: Logo four
         caption: Logo four
-      - type: ImageBlock
-        url: /images/kbrand.png
-        altText: Logo five
-        caption: Logo five
+
     spacing: 3
     columns: 5
     aspectRatio: auto

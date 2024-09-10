@@ -165,7 +165,7 @@ sections:
         borderStyle: solid
   - type: LabelsSection
     colors: colors-f
-    subtitle: '다음과 같은 작업들을 할 수 있습니다!'
+    subtitle: '다음과 같은 작업들을 할 수 있습니다!:'
     items:
       - type: Label
         label: figma(Intermediate)
@@ -192,7 +192,7 @@ sections:
     
   - type: TextSection
     variant: variant-a
-    subtitle: '연락처는 다음과 같아요!'
+    subtitle: '연락처는 다음과 같아요!:'
     colors: colors-f
     text: |
       [workim7777@gmail.com](mailto:workim7777@gmail.com)
@@ -209,6 +209,39 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
+
+   - type: TextSection
+    variant: variant-a
+    subtitle: '자세한 경력은 다음과 같아요!:'
+    colors: colors-f
+    text: |
+     **리스크제로, 성동구**
+          * 2023년 5월 - 2024년 5월 
+          * 회사 소개 : 건설현장의 중대재해법에 필요한 문서를 PC나 APP으로 간편하게 작성할 수 있는 플랫폼
+          * 업무 스킬 : figma, XD, Slack, notion.co, excel
+          * 업무 경험
+            1. 리스크제로 3.0 app 총괄 기획
+            - PC버전만 있는 리스크제로 3.0 플랫폼의 app 버전 전체 기획
+            2. 리스크제로 3.0 app 버전을 기반으로 경기주택공사에 맞게 변형
+            - 관리자, 근로자 APP menu structure, IA, flowchart, policy, 설계서, Validation, Rule
+            3. 리스크제로 3.0 app 버전을 기반으로 서울시설공단에 맞게 변형
+            - 현장 및 기술단 APP menu structure, IA, flowchart, policy, 설계서, Validation, Rule
+            4. 리스크제로 3.0 app 버전을 기반으로 울산항만공사에 맞게 변형
+            - 관리자 APP menu structure, IA, flowchart, policy, 설계서, Validation, Rule
+    
+  - type: DividerSection
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-8
+          - pb-8
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
+    
   - type: FeaturedItemsSection
     colors: colors-f
     items:

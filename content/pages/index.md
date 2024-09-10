@@ -35,7 +35,7 @@ sections:
         alignItems: center
         justifyContent: center
         flexDirection: row-reverse
-      cursor: "url(/public/images/free-icon-cursor-7155289.png), progress"
+      cursor: "url(public/images/free-icon-cursor-7155289.png), progress"
       title:
         textAlign: left
       subtitle:

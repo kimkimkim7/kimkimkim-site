@@ -14,11 +14,14 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >-
-      ## 안녕하세요, 저는 김효정입니다. UI/UX 기획자로 일을 하고 있으며 피그마, 구글 프레젠테이션, 노션, 지라 사용이 능숙합니다. 다양한 분야의 앱의 초기 기획 및 릴리즈를 진행하였고, PM으로써 프로젝트의 전반적인 기획 및 일정 관리를 주도한 경험이 있습니다. 평소에는 새로운 정보를 탐색하거나 다양한 상상을 하는 것을 좋아하며 생산적인 활동을 하지 않을 때는 누워있습니다.
+      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
+      also where I’m based. I’m currently a free agent, ex-this, ex-that,
+      ex-super big name. When I’m not coding, writing or creating, I eat
+      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
     media:
       type: ImageBlock
-      url: /images/myface.png
-      altText: my face
+      url: /images/about.jpg
+      altText: Hero image
     styles:
       self:
         height: auto
@@ -36,7 +39,6 @@ sections:
         justifyContent: center
       title:
         textAlign: left
-    
       subtitle:
         textAlign: left
       text:
@@ -44,53 +46,65 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-    
+  - type: DividerSection
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-8
+          - pb-8
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
   - type: MediaGallerySection
-  colors: colors-f
-  subtitle: '제가 일했던 회사에요:'
-  images:
-    - type: riskzero
-      url: /images/RISKZERO_CI.png
-      altText: Logo one
-      caption: Logo one
-    - type: softlunch
-      url: /images/softlunch.png
-      altText: Logo two
-      caption: Logo two
-    - type: ImageBlock
-      url: /images/platfarm.png
-      altText: Logo three
-      caption: Logo three
-    - type: ImageBlock
-      url: /images/daymedis.png
-      altText: Logo four
-      caption: Logo four
-    - type: ImageBlock
-      url: /images/kbrand.png
-      altText: Logo five
-      caption: Logo five
-  spacing: 3
-  columns: 5
-  aspectRatio: auto
-  showCaption: false
-  enableHover: false
-  styles:
-    self:
-      width: wide
-      height: auto
-      padding:
-        - pt-8
-        - pb-8
-        - pl-4
-        - pr-4
-      justifyContent: space-between   # 좌우 정렬을 위해 space-between 사용
-      alignItems: center              # 수직 정렬을 위해 center 사용
-    title:
-      textAlign: center               # 제목을 중앙에 정렬
-    subtitle:
-      textAlign: center               # 서브타이틀을 중앙에 정렬
-
-    
+    colors: colors-f
+    subtitle: 'I worked with these folks:'
+    images:
+      - type: ImageBlock
+        url: /images/logo1.svg
+        altText: Logo one
+        caption: Logo one
+      - type: ImageBlock
+        url: /images/logo2.svg
+        altText: Logo two
+        caption: Logo two
+      - type: ImageBlock
+        url: /images/logo3.svg
+        altText: Logo three
+        caption: Logo three
+      - type: ImageBlock
+        url: /images/logo4.svg
+        altText: Logo four
+        caption: Logo four
+      - type: ImageBlock
+        url: /images/logo5.svg
+        altText: Logo five
+        caption: Logo five
+    spacing: 3
+    columns: 5
+    aspectRatio: auto
+    showCaption: false
+    enableHover: false
+    styles:
+      self:
+        width: wide
+        height: auto
+        padding:
+          - pt-8
+          - pb-8
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
   - type: DividerSection
     styles:
       self:
@@ -109,13 +123,51 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: 이력서
-            url: https://drive.google.com/file/d/1gCgzHN7tK79PLGgvt-GmLdcVomEQzMax/view?usp=sharing
+            label: GitHub
+            url: 'https://github.com/'
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        actions:
           - type: Link
-            label: 포트폴리오
-            url: https://drive.google.com/file/d/1kPpXiFIo3NDJofdTCzbDjO7FZEtSfSC5/view?usp=sharing
-
-
+            label: Twitter
+            url: 'https://twitter.com/'
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        actions:
+          - type: Link
+            label: LinkedIn
+            url: 'https://www.linkedin.com/'
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        actions:
+          - type: Link
+            label: CodePen
+            url: 'https://codepen.io/'
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        actions:
+          - type: Link
+            label: Discord
+            url: 'https://discord.com/'
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        actions:
+          - type: Link
+            label: Instagram
+            url: 'https://www.instagram.com/'
+        styles:
+          self:
+            textAlign: left
     columns: 3
     spacingX: 120
     spacingY: 0
@@ -137,7 +189,7 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
-    subtitle: '자세한 경력은 아래에서 확안하세요!:'
+    subtitle: 'You can find me here:'
   - type: DividerSection
     styles:
       self:
@@ -152,19 +204,24 @@ sections:
         borderStyle: solid
   - type: LabelsSection
     colors: colors-f
-    subtitle: '다음과 같은 작업들을 할 수 있습니다!:'
+    subtitle: 'Skills:'
     items:
       - type: Label
-        label: figma(Intermediate)
+        label: 'WEB 1, 2, 3'
       - type: Label
-        label: google workspace(Expert)
+        label: React
       - type: Label
-        label: JIRA (Intermediate)
+        label: Microsoft Office
       - type: Label
-        label: adobe photoshop(Intermediate)
+        label: Next.js
       - type: Label
-        label: 노션 (Intermediate)
-
+        label: Netlify
+      - type: Label
+        label: Pancakes
+      - type: Label
+        label: C++
+      - type: Label
+        label: Swift
   - type: DividerSection
     styles:
       self:
@@ -177,70 +234,105 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
- 
   - type: TextSection
     variant: variant-a
-    subtitle: '연락처는 다음과 같아요!:'
+    subtitle: 'Contact:'
     colors: colors-f
     text: |
-      [workim7777@gmail.com](mailto:workim7777@gmail.com)
- 
-- type: FeaturedItemsSection
-  colors: colors-f
-  items:
-    - type: FeaturedItem
-      subtitle: '자세한 경력은 다음과 같아요!:'
-      text: |-
-        **리스크제로, 성동구**
-        * 2023년 5월 - 2024년 5월 
-        * 회사 소개 : 건설현장의 중대재해법에 필요한 문서를 PC나 APP으로 간편하게 작성할 수 있는 플랫폼
-        * 업무 스킬 : figma, XD, Slack, notion.co, excel
-        * 업무 경험
-          1. 리스크제로 3.0 app 총괄 기획
-          - PC버전만 있는 리스크제로 3.0 플랫폼의 app 버전 전체 기획
-          2. 리스크제로 3.0 app 버전을 기반으로 경기주택공사에 맞게 변형
-          - 관리자, 근로자 APP menu structure, IA, flowchart, policy, 설계서, Validation, Rule
-          3. 리스크제로 3.0 app 버전을 기반으로 서울시설공단에 맞게 변형
-          - 현장 및 기술단 APP menu structure, IA, flowchart, policy, 설계서, Validation, Rule
-          4. 리스크제로 3.0 app 버전을 기반으로 울산항만공사에 맞게 변형
-          - 관리자 APP menu structure, IA, flowchart, policy, 설계서, Validation, Rule
-        ...  (생략)
+      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+  - type: DividerSection
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-8
+          - pb-8
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
+  - type: FeaturedItemsSection
+    colors: colors-f
+    items:
+      - type: FeaturedItem
+        subtitle: 'Experience:'
+        text: |-
+          **Current**
 
-      styles:
-        self:
-          textAlign: left
-          width: 100%  # 전체 화면을 사용하도록 수정
-          padding:
-            - pt-0
-            - pl-0
-            - pb-0
-            - pr-0
+          * freelance @freelance.me
 
-styles:
-  self:
-    height: auto
-    width: wide
-    margin:
-      - mt-0
-      - mb-0
-      - ml-0
-      - mr-0
-    padding:
-      - pt-8
-      - pb-8
-      - pl-4
-      - pr-4
-    justifyContent: center
-    borderRadius: none
-    borderWidth: 0
-    borderStyle: none
-    borderColor: border-dark
-  title:
-    textAlign: left
-  subtitle:
-    textAlign: left
+          **2018-2021**
 
-    
+          * fullstack at this startup
+
+          **2015**
+
+          * senior front-end at this place
+
+          **2013**
+
+          * intern developer at a big company
+
+          **2011**
+
+          * flipping burgers
+        styles:
+          self:
+            textAlign: left
+            padding:
+              - pt-0
+              - pl-0
+              - pb-0
+              - pr-0
+      - type: FeaturedItem
+        subtitle: 'Education:'
+        text: |-
+          **2015-2018**
+
+          * ba computer sciense at a semi fancy school
+
+          **2014**
+
+          * react certificate somewhere
+
+          **2011**
+
+          * my highschool
+        styles:
+          self:
+            textAlign: left
+            padding:
+              - pt-0
+              - pl-0
+              - pb-0
+              - pr-0
+    columns: 2
+    spacingX: 60
+    spacingY: 60
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-8
+          - pb-8
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
   - type: DividerSection
     styles:
       self:
@@ -255,7 +347,7 @@ styles:
         borderStyle: solid
   - type: ContactSection
     backgroundSize: full
-    title: "제 작업들이 흥미롭나요? 연락주세요!"
+    title: "Let’s talk... \U0001F4AC"
     colors: colors-f
     form:
       type: FormBlock

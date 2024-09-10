@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >-
-      ## 안녕하세요, 저는 김효정입니다. UI/UX 기획자로 일을 하고 있으며, 다수 회사에서 일한 경험이 있습니다. 코딩이나 글쓰기, 창작 활동을 하지 않을 때는 누워있습니다.
+      ## 안녕하세요, 저는 김효정입니다. UI/UX 기획자로 일을 하고 있으며, 다수 회사에서 일한 경험이 있습니다. 평소에는 새로운 정보를 탐색하거나  창작 활동을 하지 않을 때는 누워있습니다.
     media:
       type: ImageBlock
       url: /images/myface.png
@@ -64,11 +64,11 @@ sections:
         altText: Logo one
         caption: Logo one
       - type: softlunch
-        url: /images/softlunch_ci.png
+        url: /images/softlunch_ci-removebg-preview.png
         altText: Logo two
         caption: Logo two
       - type: ImageBlock
-        url: /images/logo3.svg
+        url: /images/platfarm.png
         altText: Logo three
         caption: Logo three
       - type: ImageBlock
@@ -76,7 +76,7 @@ sections:
         altText: Logo four
         caption: Logo four
       - type: ImageBlock
-        url: /images/logo5.svg
+        url: /images/kbrand.png
         altText: Logo five
         caption: Logo five
     spacing: 3

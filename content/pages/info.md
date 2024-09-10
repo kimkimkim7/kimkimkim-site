@@ -50,8 +50,8 @@ sections:
         padding:
           - pt-8
           - pb-8
-          - pl-8
-          - pr-8
+          - pl-16
+          - pr-16
         justifyContent: center
         borderWidth: 1
         borderStyle: solid

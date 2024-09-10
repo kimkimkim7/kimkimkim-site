@@ -120,8 +120,8 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: GitHub
-            url: 'https://github.com/'
+            label: 이력서
+            url: '(https://drive.google.com/file/d/1_iUtaT1ZnZVBHcXPrtEhLRNQIXMwsYtU/view?usp=drive_link)'
 
     columns: 3
     spacingX: 120
@@ -144,7 +144,7 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
-    subtitle: 'You can find me here:'
+    subtitle: '자세한 경력은 아래에서 확안하세요!:'
   - type: DividerSection
     styles:
       self:

@@ -57,10 +57,10 @@ sections:
         borderStyle: solid
   - type: MediaGallerySection
     colors: colors-f
-    subtitle: 'I worked with these folks:'
+    subtitle: '제가 일했던 회사에요:'
     images:
-      - type: ImageBlock
-        url: /images/logo1.svg
+      - type: riskzero
+        url: /images/RISKZERO_CI.png
         altText: Logo one
         caption: Logo one
       - type: ImageBlock

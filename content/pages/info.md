@@ -36,6 +36,7 @@ sections:
         justifyContent: center
       title:
         textAlign: left
+    
       subtitle:
         textAlign: left
       text:
@@ -44,66 +45,51 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
   - type: MediaGallerySection
-    colors: colors-f
-    subtitle: '제가 일했던 회사에요:'
-    images:
-      - type: riskzero
-        url: /images/RISKZERO_CI.png
-        altText: Logo one
-        caption: Logo one
-      - type: softlunch
-        url: /images/softlunch.png
-        altText: Logo two
-        caption: Logo two
-      - type: ImageBlock
-        url: /images/platfarm.png
-        altText: Logo three
-        caption: Logo three
-      - type: ImageBlock
-        url: /images/daymedis.png
-        altText: Logo four
-        caption: Logo four
-      - type: ImageBlock
-        url: /images/kbrand.png
-        altText: Logo five
-        caption: Logo five
+  colors: colors-f
+  subtitle: '제가 일했던 회사에요:'
+  images:
+    - type: riskzero
+      url: /images/RISKZERO_CI.png
+      altText: Logo one
+      caption: Logo one
+    - type: softlunch
+      url: /images/softlunch.png
+      altText: Logo two
+      caption: Logo two
+    - type: ImageBlock
+      url: /images/platfarm.png
+      altText: Logo three
+      caption: Logo three
+    - type: ImageBlock
+      url: /images/daymedis.png
+      altText: Logo four
+      caption: Logo four
+    - type: ImageBlock
+      url: /images/kbrand.png
+      altText: Logo five
+      caption: Logo five
+  spacing: 3
+  columns: 5
+  aspectRatio: auto
+  showCaption: false
+  enableHover: false
+  styles:
+    self:
+      width: wide
+      height: auto
+      padding:
+        - pt-8
+        - pb-8
+        - pl-4
+        - pr-4
+      justifyContent: space-between   # 좌우 정렬을 위해 space-between 사용
+      alignItems: center              # 수직 정렬을 위해 center 사용
+    title:
+      textAlign: center               # 제목을 중앙에 정렬
+    subtitle:
+      textAlign: center               # 서브타이틀을 중앙에 정렬
 
-    spacing: 3
-    columns: 5
-    aspectRatio: auto
-    showCaption: false
-    enableHover: false
-    styles:
-      self:
-        width: wide
-        height: auto
-        padding:
-          - pt-8
-          - pb-8
-          - pl-100
-          - pr-100
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
     
   - type: DividerSection
     styles:

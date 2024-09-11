@@ -61,29 +61,7 @@ export const HeaderModel: Model = {
                 }
             ]
         },
-        {
-            type: 'list',
-            name: 'socialLinks',
-            label: 'Social links',
-            items: {
-                type: 'model',
-                models: ['Social']
-            },
-            default: [
-                {
-                    type: 'Social',
-                    label: '',
-                    altText: 'Twitter',
-                    url: '/',
-                    icon: 'twitter'
-                },
-                {
-                    type: 'Social',
-                    label: '',
-                    altText: 'GitHub',
-                    url: '/',
-                    icon: 'github'
-                }
+        
             ]
         },
         {

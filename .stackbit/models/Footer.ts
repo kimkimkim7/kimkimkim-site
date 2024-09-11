@@ -36,9 +36,9 @@ export const FooterModel: Model = {
             label: 'Contacts',
             models: ['ContactBlock'],
             default: {
-                phoneNumber: '850-123-5021',
+                phoneNumber: '',
                 phoneAltText: 'Call us',
-                email: 'john@doe.com',
+                email: 'worikim7777@gmail.com',
                 emailAltText: 'Email us'
             }
         },

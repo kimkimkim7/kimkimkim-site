@@ -54,13 +54,7 @@ function Contacts(props) {
     const { phoneNumber, phoneAltText, email, emailAltText, address, addressAltText, elementId, className } = props;
     return (
         <div id={elementId || null} className={className}>
-            {phoneNumber && (
-                <p>
-                    <a className="underline hover:no-underline" href={`tel:${phoneNumber}`} aria-label={phoneAltText}>
-                        {phoneNumber}
-                    </a>
-                </p>
-            )}
+        
             {email && (
                 <p>
                     <a className="underline hover:no-underline" href={`mailto:${email}`} aria-label={emailAltText}>
@@ -68,16 +62,7 @@ function Contacts(props) {
                     </a>
                 </p>
             )}
-            {address && (
-                <p>
-                    <a
-                        className="underline hover:no-underline"
-                        href={`https://www.google.com/maps/search/${encodeURIComponent(address)}`}
-                        aria-label={addressAltText}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {address}
+
                     </a>
                 </p>
             )}
